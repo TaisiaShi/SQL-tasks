@@ -80,6 +80,19 @@ WITH filtered_users AS (
 SELECT COUNT(*) 
 FROM filtered_users
 ```
-
+<table>
+   <tr>
+      <td></td>
+      <td>
+         COUNT(*)
+      </td>
+   </tr>
+   <tr>
+      <td>0</td>
+      <td>
+         17037
+      </td>
+   </tr>
+</table>
 
 
