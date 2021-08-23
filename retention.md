@@ -31,3 +31,14 @@
       <td>...</td>
    </tr>
 </table>
+
+## Решение
+
+```sql
+SELECT  user_id, min(date_paid) as first_date, count(*) as cnt 
+FROM payments 
+GROUP BY user_id
+HAVING MIN(date_paid) >= "2020-10-01" 
+ORDER BY cnt DESC
+LIMIT 5
+```
