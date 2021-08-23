@@ -5,7 +5,7 @@
 разное количество дней (поле days). По пользователям есть агрегированная по дням статистика
 (таблица downloads) c количеством скачанных за день файлов (поле downloads).
 
-<img src="img/schema.jpg" />
+<img src="img/retention/schema.jpg" />
 
 ## Задача
 Мы считаем ретеншн как процент пользователей, возвращающихся на сервис и что-либо
@@ -34,6 +34,7 @@
 
 ## Решение
 
+**1)** Пользователи, совершившие первую покупку после 1 октября 2020 года, и количество покупок.
 ```sql
 SELECT  user_id, min(date_paid) as first_date, count(*) as cnt 
 FROM payments 
@@ -42,3 +43,4 @@ HAVING MIN(date_paid) >= "2020-10-01"
 ORDER BY cnt DESC
 LIMIT 5
 ```
+<img src="img/retention/sql_1_res.png" />
