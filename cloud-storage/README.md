@@ -1,6 +1,8 @@
 # Тестовое по SQL от облачного хранилища (MySQL)
 
-Ссылка да [дамп](https://drive.google.com/file/d/1cXSREa9DLLKMRi5YKfGr-sblQycILdkG/view?usp=sharing)
+* Ссылка на [дамп MySQL-таблиц](https://drive.google.com/file/d/1cXSREa9DLLKMRi5YKfGr-sblQycILdkG/view?usp=sharing)
+* 
+* Формулировка задач: [Тест на data analyst SQL!.pdf](https://github.com/TaisiaShi/SQL-tasks/blob/main/cloud-storage/%D0%A2%D0%B5%D1%81%D1%82%20%D0%BD%D0%B0%20data%20analyst%20SQL!.pdf)
 
 ## Источник
 
