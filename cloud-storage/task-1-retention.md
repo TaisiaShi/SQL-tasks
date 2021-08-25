@@ -5,7 +5,7 @@
 разное количество дней (поле days). По пользователям есть агрегированная по дням статистика
 (таблица downloads) c количеством скачанных за день файлов (поле downloads).
 
-<img src="img/retention/schema.jpg" />
+<img src="img/schema.jpg" />
 
 ## Задача
 Мы считаем ретеншн как процент пользователей, возвращающихся на сервис и что-либо
@@ -57,7 +57,7 @@ HAVING MIN(date_paid) >= "2020-10-01"
 ORDER BY cnt DESC
 LIMIT 5
 ```
-<img src="img/retention/sql_1_res.png" />
+<img src="img/task-1-sql-1-res.png" />
  
 <table>
    <tr>
